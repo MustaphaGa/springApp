@@ -1,6 +1,7 @@
 package com.musta.demo.Student;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
@@ -13,7 +14,8 @@ public class StudentController {
 
     private StudentService service ;
 
-    public StudentController(StudentService service) {
+    public StudentController(
+             StudentService service) {
         this.service = service;
     }
 

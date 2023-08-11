@@ -1,3 +1,4 @@
+/*
 package com.musta.demo.Student;
 
 import org.springframework.stereotype.Service;
@@ -41,3 +42,4 @@ public class StudentServiceImlp implements  StudentService{
 studentdao.delete(email);
     }
 }
+*/
